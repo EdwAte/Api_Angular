@@ -1,0 +1,14 @@
+.personajes-container {
+    display: flex;
+    flex-wrap: wrap; /* Para que los elementos se vayan a la siguiente línea si no caben en una sola fila */
+    gap: 20px; /* Espacio entre los elementos */
+  }
+  
+  .personaje-item {
+    display: flex;
+    flex-direction: column; /* Para que los elementos dentro del item se coloquen uno debajo de otro */
+    align-items: center; /* Centra los elementos dentro de cada item */
+    border: 1px solid #ddd; /* Borde para visualizar mejor cada item */
+    padding: 10px;
+    width: 200px; /* Ajusta el ancho de cada item según sea necesario */
+  }
